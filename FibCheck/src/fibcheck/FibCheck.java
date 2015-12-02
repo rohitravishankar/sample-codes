@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Pavan
+ * @author Sameera
  */
 public class FibCheck {
 
