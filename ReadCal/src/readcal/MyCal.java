@@ -15,7 +15,7 @@ import java.util.HashMap;
 
 /**
  *
- * @author Pavan
+ * @author Sameera
  */
 public class MyCal {
 
