@@ -1,7 +1,7 @@
 import keyword
 import re
 
-handle = open("filename.py","r")
+handle = open("file.py","r")
 data = str(handle.read())
 data = re.sub(r'".*"', r"",data)
 data = re.sub(r'#.*' , r"",data)
