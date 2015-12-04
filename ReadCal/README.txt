@@ -1,0 +1,1 @@
+Solution to the problem https://projecteuler.net/problem=22
