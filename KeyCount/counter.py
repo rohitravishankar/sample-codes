@@ -14,6 +14,4 @@ for i in mystr:
 	if i in mykeys:
 		print i
 		count=count+1
-	else:
-		count+=0
 print count
