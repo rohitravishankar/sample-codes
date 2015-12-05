@@ -1,0 +1,2 @@
+Solution to the problem in https://projecteuler.net/problem=12 . It turns out that the number (Triangle numbers in this case)
+of divisors for a number is twice the number of divisors the square root of the same number has.
