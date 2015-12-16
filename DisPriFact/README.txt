@@ -1,0 +1,1 @@
+Prints out all the distinct prime factors till the number 50000 . 
