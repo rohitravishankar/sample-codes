@@ -7,7 +7,7 @@ package disprifact;
 
 /**
  *
- * @author Pavan
+ * @author Sameera
  */
 public class DisPriFact {
 
