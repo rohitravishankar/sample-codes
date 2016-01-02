@@ -1,5 +1,19 @@
 The program performs a grid search, to be more specifc performs a matrix search in a larger matrix
 
+Input Format : 
+
+1. First line contains a number of test cases
+2. Second line contains the ROW X COLUMN entry of the bigger matrix
+3. Third input parameter contains the matrix itself
+4. Fourth parameter is the ROW X COLUMN entry of the smaller matrix
+5. Fifth parameter The smaller matrix itself 
+
+Output Fomat : 
+
+Yes, if the smaller matrix is found in the bigger matrix
+NO, if the smaller matrix is not a part of the bigger matrix
+
+
 Input :
 
 1
