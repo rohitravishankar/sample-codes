@@ -17,7 +17,6 @@ import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 
 /**
- *
  * @author Sameera
  */
 public class chatUI {
