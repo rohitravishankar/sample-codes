@@ -18,7 +18,6 @@ public class XPdt {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        String input = null;
         Scanner n = new Scanner(System.in);
         int n1 = n.nextInt();
         int n2 = n.nextInt();
