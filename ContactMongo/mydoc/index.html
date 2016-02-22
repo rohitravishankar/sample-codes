@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Add contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/signin.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #f5f5f5;
+      }
+
+      .form-signin {
+        max-width: 300px;
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+      .form-signin .form-signin-heading,
+      .form-signin .checkbox {
+        margin-bottom: 10px;
+      }
+      .form-signin input[type="text"],
+      .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+      }
+
+    </style>
+    <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <form action="http://localhost:5000/" class="form-signin" method="POST">
+        <h2 class="form-signin-heading">Contact Database</h2>
+        <pre><h4 class="form-signin-heading">ADD or LIST or DELETE</h4></pre>
+        <input type="text" class="input-block-level" id="name" name="name"  placeholder="Name">
+        <input type="text" class="input-block-level" id="phno" name="phno"  placeholder="Phone number">
+        <input type="text" class="input-block-level" id="email" name="email"  placeholder="Email address">
+        <br/>
+        <button class="btn btn-large btn-primary" type="submit" name="submit" value="add">Add</button>
+        <button class="btn btn-large btn-primary" type="submit" name="submit" value="list">List</button>
+        <button class="btn btn-large btn-primary" type="submit" name="submit" value="delete">Delete</button>
+      </form>
+
+    </div> <!-- /container -->
+  </body>
+</html>
