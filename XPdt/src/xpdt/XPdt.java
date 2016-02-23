@@ -21,6 +21,7 @@ public class XPdt {
         Scanner n = new Scanner(System.in);
         int n1 = n.nextInt();
         int n2 = n.nextInt();
+        // inputs : lengthofthearray modinteger
         int num[] = new int[n1];
         for(int i=0;i<n1;i++){
             num[i] = n.nextInt();
