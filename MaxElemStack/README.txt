@@ -27,3 +27,5 @@ Sample Output
 
 26
 91
+
+All operations in O(1)
