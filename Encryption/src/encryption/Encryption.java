@@ -16,7 +16,7 @@ public class Encryption {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         try {
             Scanner in = new Scanner(System.in).useDelimiter("\\n");
             String ms = in.next();
