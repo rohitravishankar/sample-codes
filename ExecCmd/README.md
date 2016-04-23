@@ -1,40 +1,40 @@
 An interactive program which supports the following commands
 ------------------------------------------------------------
 
-Copy File:
+### Copy File:
 
-$ copyfile​ <source_file_path> <destination_file_path>
+    $ copyfile <source_file_path> <destination_file_path>
 
-Copy Directory:
+### Copy Directory:
 
-$ copydir ​<source_directory_path> <destination_directory_path>
+    $ copydir <source_directory_path> <destination_directory_path>
 
-Move File:
+### Move File:
 
-$ movefile​ <source_file_path> <destination_file_path>
+    $ movefile <source_file_path> <destination_file_path>
 
-Move Directory:
+### Move Directory:
 
-$ movedir ​<source_directory_path> <destination_directory_path>
+    $ movedir <source_directory_path> <destination_directory_path>
 
-Delete File:
+### Delete File:
 
-$ rmfile​ <file_path>
+    $ rmfile <file_path>
 
-Delete Directory:
+### Delete Directory:
 
-$ rmdir​ <directory_path>
+    $ rmdir <directory_path>
 
 --------------------------------------------------------------
 
 To exit from the terminal 
 
-$ exit
+    $ exit
 
 --------------------------------------------------------------
 
 To run the code
 
-$ python executor.py
+    $ python executor.py
 
 --------------------------------------------------------------
