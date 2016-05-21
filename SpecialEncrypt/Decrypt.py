@@ -1,5 +1,7 @@
 from __future__ import division
+# Input the hash code
 g = float(raw_input())
+# Number of letters the string should contain
 numberLetters = int(raw_input())
 myar=[]
 stri = 'acdegilmnoprstuw'
