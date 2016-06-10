@@ -11,3 +11,12 @@ Output
 
 
 areemas@liamg.moc
+
+
+Input
+
+fin = fin + myar[j];
+
+Output
+
+nif = nif + raym[j];
