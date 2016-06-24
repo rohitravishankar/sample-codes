@@ -26,11 +26,11 @@ public class MirrorImage {
             int data = n.nextInt();
             b.insert(data);
         }
-        System.out.print("Before Mirroring ");
+        System.out.println("Before Mirroring");
         b.print(b.root);
         System.out.println();
         b.mirror(b.root);
-        System.out.print("After Mirroring ");
+        System.out.println("After Mirroring ");
         b.print(b.root);
         System.out.println();
     }
