@@ -43,8 +43,9 @@ public class Maze {
         int b = n.nextInt();
         int c = n.nextInt();
         int nearmeet;
+        int len = checklen(nodes, a);
         nearmeet = nearestMeetingCell(nodes, a, b, c);
-        System.out.println(nearmeet+"\n"+max+"\n");
+        System.out.println(nearmeet+"\n"+max+"\n"+(len+1));
     }
 
     private static int nearestMeetingCell(int[] nodes, int a, int b, int c) {
@@ -63,15 +64,25 @@ public class Maze {
         return nearestMeetingCell(nodes, --a, nodes[b], nodes[c]);
     }
 
-    private static int checklen(int nodes[], int a, int i, int j,int count) {
-        if(i!=nodes[j]){
-            a--;
-            count++;
-            return checklen(nodes,a,i,nodes[j],count);
+    private static int checklen(int nodes[], int a) {
+        int max = 0;
+        for(int i=0;i<a;i++){
+            ar.clear();
+            ar.add(i);
+            int num = i;
+            for(int j=0;j<a;j++){
+                if(num!=-1){
+                    ar.add(nodes[num]);
+                    num = nodes[num];
+                }
+            }
+            int i1 = ar.indexOf(i);
+            ar.subList(0, i1+1).clear();
+            int i2 = ar.indexOf(i);
+            if(i2!=-1 && i2 > max){
+                max = i2;
+            }
         }
-        else if(i == -1 || nodes[j]==-1|| a==0){
-            return -1;
-        }
-        return count;
+        return max;
     }
 }

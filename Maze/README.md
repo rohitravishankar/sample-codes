@@ -1,4 +1,4 @@
-### A program to find Nearest meeting cell of any two given cells and Maximum number of entry points (incoming edges) for any cell in the maze.
+#### A program to find Nearest meeting cell of any two given cells and Maximum number of entry points (incoming edges) for any cell in the maze, Also find the maximum cycle length of the whole maze
 
 
 #### Input
@@ -11,6 +11,7 @@
 
     4
     5
+    6
 
 #### Input format
 
@@ -27,3 +28,4 @@
 1. Line 1 is the nearest meeting cell of two given cells
 
 2. Line 2 is the maximum number of entry points (incoming edges) for any cell in the maze.
+3. Line 3 is the maximum length of the cycle present in the maze
