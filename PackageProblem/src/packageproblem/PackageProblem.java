@@ -100,8 +100,8 @@ public class PackageProblem {
             }
             if (check == -1) {
                 System.out.println("-");
-            } 
-            else 
+            }
+            else
             {
                 System.out.println();
             }
