@@ -2,7 +2,7 @@
 
 The Bomber algorithm doesn't like any 3 or more consecutive characters in a given string to be the same.
 
-For Example: 
+##### For Example: 
 If the given string is `adbcccbbd` the bomber algo will first bomb `ccc` and then `bbb`, so the final output string will become `add`.
 The bomber algo will destroy the characters only if there are 3 or more continuous occurrence of same characters in the string.
 
