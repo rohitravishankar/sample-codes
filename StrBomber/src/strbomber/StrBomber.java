@@ -31,7 +31,7 @@ public class StrBomber {
                 if (i > 2) {
                     i -= 3;
                 } else if (i > 1) {
-                    i -= 2;
+                    i = -1;
                 }
             }
         }
