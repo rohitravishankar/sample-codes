@@ -14,7 +14,7 @@ The bomber algo will destroy the characters only if there are 3 or more continuo
     abcdeeeeddcbfgf
 #### OUTPUT 2
     abccbfgf
-### INPUT 3
+#### INPUT 3
     aabccccbbae
 #### OUTPUT 3
     e
