@@ -12,19 +12,19 @@ of character deletions required to make **a** and __b__ anagrams. Any characters
 The first line contains **a** single string, .
 The second line contains **a** single string, .
 
-####Constraints
+#### Constraints
 It is guaranteed that **a** and **b** consist of lowercase English alphabetic letters (i.e., **a** through **z**).
 
-####Output Format
+#### Output Format
 Print **a** single integer denoting the number of characters you must delete to make the two strings anagrams of each other.
-####Sample Input
+#### Sample Input
 
     cde
     abc
-####Sample Output
+#### Sample Output
     4
 
-####Explanation
+#### Explanation
 We delete the following characters from our two strings to turn them into anagrams of each other:
 
 1. Remove `d` and `e`from `cde` to get `c`.
